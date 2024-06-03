@@ -18,7 +18,7 @@ export class PokemonService {
     createPokemonDto.name = createPokemonDto.name.toLowerCase();
     //Controlar los errores
     try {
-        //Inserción a la base de datos
+        //Inserción a la base de datoss
         const Pokemon = await this.pokemonModel.create(createPokemonDto);
         return Pokemon;  
 
